@@ -1,0 +1,77 @@
+:root {
+    --black: #020203;
+    --red: #ab0909;
+    --white: rgb(245, 245, 247);
+    --light-blue: rgb(40, 158, 255);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Kanit', sans-serif;
+}
+
+body {
+    height: 100vh;
+    background-image: linear-gradient(47deg, var(--black), var(--red));
+}
+
+.code-editor {
+    width: 90vw;
+    height: 90vh;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    background-color: #f2eded;
+    border-radius: 1rem;
+    overflow: hidden;
+    border: 1px solid var(--black);
+    margin: auto;
+}
+
+.code {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    overflow-y: auto;
+    background-color: var(--black);
+    padding: 1rem;
+    border-radius: 0 1rem 1rem 0;
+}
+
+h1 {
+    font: 700 1.2rem sans-serif;
+    margin: 1rem 0;
+    color: #fff;
+}
+
+h1 img {
+    width: 1.4rem;
+    margin-right: .5rem;
+    vertical-align: middle;
+}
+
+.code textarea {
+    width: 100%;
+    height: calc(100% - 4rem);
+    background-color: var(--red);
+    color: var(--white);
+    border: none;
+    padding: 1rem;
+    font-size: 1.1rem;
+    resize: vertical;
+}
+
+.code textarea::-webkit-scrollbar {
+    width: .4rem;
+}
+
+.code textarea::-webkit-scrollbar-thumb {
+    background-color: var(--light-blue);
+    border-radius: .4rem;
+}
+
+#result {
+    width: 100%;
+    height: 100%;
+    border: none;
+}
