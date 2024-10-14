@@ -25,7 +25,7 @@ A **Live Code Editor** built with HTML, CSS, and JavaScript that allows users to
 
 The HTML structure includes a container for code editors (HTML, CSS, JS) and an iframe to display the live results.
 
-### <img src="img/CascadingStyleSheets.webp" alt="CSS Icon" width="20"> **CSS**
+### <img src="img/CascadingStyleSheets.webp" alt="CSS Icon" width="16"> **CSS**
 
 Custom styling includes a modern design with a color scheme of black, red, and white for a slick coding environment. Scrollbars, borders, and the editor layout are tailored for usability and aesthetics.
 
