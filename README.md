@@ -21,15 +21,15 @@ A **Live Code Editor** built with HTML, CSS, and JavaScript that allows users to
 
 ## **Code Structure**
 
-### <img src="./images/HyperTextMarkupLanguage.webp" alt="HTML Icon" width="16"> **HTML**
+### <img src="images/HyperTextMarkupLanguage.webp" alt="HTML Icon" width="16"> **HTML**
 
 The HTML structure includes a container for code editors (HTML, CSS, JS) and an iframe to display the live results.
 
-### **CSS**
+### <img src="images/CascadingStyleSheets.webp" alt="CSS Icon" width="16"> **CSS**
 
 Custom styling includes a modern design with a color scheme of black, red, and white for a slick coding environment. Scrollbars, borders, and the editor layout are tailored for usability and aesthetics.
 
-### **JavaScript**
+### <img src="images/JavaScript.webp" alt="JavaScript Icon" width="16"> **JavaScript**
 
 JavaScript handles:
 - Storing the code in `localStorage`
