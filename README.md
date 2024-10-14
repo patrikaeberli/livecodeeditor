@@ -2,7 +2,7 @@
 
 A **Live Code Editor** built with HTML, CSS, and JavaScript that allows users to write and preview HTML, CSS, and JavaScript code in real-time. Users can upload their code snippets, and the output will be rendered live as they type.
 
-![Live Code Editor Demo](demo.gif)
+![Live Code Editor Demo](./demo.gif)
 
 [**Live Demo**](https://patrikaeberli.github.io/livecodeeditor/)
 
@@ -21,7 +21,7 @@ A **Live Code Editor** built with HTML, CSS, and JavaScript that allows users to
 
 ## **Code Structure**
 
-### **HTML**
+### ![HTML Icon](img/HyperTextMarkupLanguage.webp) **HTML**
 
 The HTML structure includes a container for code editors (HTML, CSS, JS) and an iframe to display the live results.
 
