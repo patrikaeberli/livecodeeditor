@@ -21,7 +21,7 @@ A **Live Code Editor** built with HTML, CSS, and JavaScript that allows users to
 
 ## **Code Structure**
 
-### ![HTML Icon](img/HyperTextMarkupLanguage.webp) **HTML**
+### <img src="./images/html-icon.png" alt="HTML Icon" width="16"> **HTML**
 
 The HTML structure includes a container for code editors (HTML, CSS, JS) and an iframe to display the live results.
 
